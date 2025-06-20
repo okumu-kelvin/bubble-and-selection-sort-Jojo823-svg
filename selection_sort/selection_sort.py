@@ -6,12 +6,5 @@ def selection_sort(arr):
            if arr[j]<arr[min_index]:
                min_index=j
                arr[i],arr[min_index]=arr[min_index],arr[i]
-
-
-my_num=[2,4,1,5,3]
-print("List: ",my_num)
-
-selection_sort(my_num)
-print("Sorted list: ",my_num)
-
+    return arr
 
