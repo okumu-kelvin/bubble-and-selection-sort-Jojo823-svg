@@ -8,12 +8,7 @@ def bubble_sort(arr,n):
                 swapped=True
         if not swapped:
             break
-
-my_num=[5,13,6,2,12,9,15,8]
-print("LIst: ",my_num)
-
-bubble_sort(my_num,len(my_num))
-print("Sorted list: ",my_num)
+    return arr
 
 
 
